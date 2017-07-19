@@ -40,6 +40,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LightLDAP">
+      <HintPath>..\..\lib\LightLDAP.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\SC.Newtonsoft.Json.8.2.1\lib\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -72,6 +75,7 @@
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.Mvc">
       <HintPath>..\packages\SC.System.Web.Mvc.8.2.1\lib\System.Web.Mvc.dll</HintPath>
       <Private>False</Private>
@@ -88,11 +92,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LDAPLogin.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.130279.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="sitecore\shell\client\Speak\Layouts\Renderings\Common\PageCodes\PageCode.cshtml" />
     <None Include="web.config" />
   </ItemGroup>
