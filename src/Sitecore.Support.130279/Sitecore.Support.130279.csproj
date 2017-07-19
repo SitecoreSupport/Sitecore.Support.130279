@@ -102,6 +102,7 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="sitecore\admin\LDAPLogin.aspx" />
     <Content Include="sitecore\shell\client\Speak\Layouts\Renderings\Common\PageCodes\PageCode.cshtml" />
     <None Include="web.config" />
   </ItemGroup>

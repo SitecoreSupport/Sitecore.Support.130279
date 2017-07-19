@@ -18,6 +18,7 @@
   using Sitecore.Sites;
   using Sitecore.Text;
   using Sitecore.Web;
+  using Sitecore.Web.Authentication;
 
   public class LDAPLogin : Page
   {
@@ -171,6 +172,13 @@
 
       if (AuthenticationManager.Login(username, false, true))
       {
+#region fix
+        if (!DomainAccessGuard.IsNewUserAllowed())
+        {
+          WebUtil.Redirect("/sitecore/client/Applications/LicenseOptions/StartPage");
+          return;
+        }
+#endregion
         var user = Sitecore.Security.Accounts.User.FromName(username, true);
 
         var url = this.GetStartUrl(user);
