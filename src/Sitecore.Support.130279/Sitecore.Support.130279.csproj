@@ -40,50 +40,50 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Newtonsoft.Json.8.2.0\lib\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\SC.Newtonsoft.Json.8.2.1\lib\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
       <Private>False</Private>
     </Reference>
-    <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.RazorGenerator.Mvc.8.2.0\lib\RazorGenerator.Mvc.dll</HintPath>
+    <Reference Include="RazorGenerator.Mvc">
+      <HintPath>..\packages\SC.RazorGenerator.Mvc.8.2.1\lib\RazorGenerator.Mvc.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Client.8.2.0\lib\Sitecore.Client.dll</HintPath>
+    <Reference Include="Sitecore.Client">
+      <HintPath>..\packages\SC.Sitecore.Client.8.2.1\lib\Sitecore.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.8.2.0\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.2.1\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Mvc.8.2.0\lib\Sitecore.Mvc.dll</HintPath>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\packages\SC.Sitecore.Mvc.8.2.1\lib\Sitecore.Mvc.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Speak.Client, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Speak.Client.8.2.0\lib\Sitecore.Speak.Client.dll</HintPath>
+    <Reference Include="Sitecore.Speak.Client">
+      <HintPath>..\packages\SC.Sitecore.Speak.Client.8.2.1\lib\Sitecore.Speak.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Web, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Web.8.2.0\lib\Sitecore.Web.dll</HintPath>
+    <Reference Include="Sitecore.Web">
+      <HintPath>..\packages\SC.Sitecore.Web.8.2.1\lib\Sitecore.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.System.Web.Mvc.8.2.0\lib\System.Web.Mvc.dll</HintPath>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\SC.System.Web.Mvc.8.2.1\lib\System.Web.Mvc.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.System.Web.WebPages.8.2.0\lib\System.Web.WebPages.dll</HintPath>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>..\packages\SC.System.Web.WebPages.8.2.1\lib\System.Web.WebPages.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
-    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.WebActivatorEx.8.2.0\lib\WebActivatorEx.dll</HintPath>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\SC.WebActivatorEx.8.2.1\lib\WebActivatorEx.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
